@@ -1,5 +1,5 @@
-import { Empleado } from "./Empleado";
-import { Inmueble } from "./Inmueble";
+import { Empleado } from "./Rankings/Empleado";
+import { Inmueble } from "./Inmuebles/Inmueble";
 
 export class Cliente {
     private nombre : string;

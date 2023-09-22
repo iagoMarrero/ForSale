@@ -1,14 +1,19 @@
-import { Cliente } from "./Cliente";
-import { Empleado } from "./Empleado";
-import { EstadoOperacion } from "./EstadoOperacion";
-import { Inmueble } from "./Inmueble";
-import { Publicada } from "./Operaciones/Estados/Publicada";
+import { Cliente } from "../Cliente";
+import { Empleado } from "../Rankings/Empleado";
+import { EstadoOperacion } from "./Estados/Estados/EstadoOperacion";
+import { Inmueble } from "../Inmuebles/Inmueble";
+import { Publicada } from "./Estados/Estados/Publicada";
+import { Zona } from "../Inmuebles/Zona";
 
 export abstract class Operacion {
     private estado : EstadoOperacion;
 
     constructor() {
         this.estado = new Publicada();
+    }
+
+    public getZona() : Zona {
+        return this.inmueble.getZona()
     }
 
     public setEstado(unEstado : EstadoOperacion){

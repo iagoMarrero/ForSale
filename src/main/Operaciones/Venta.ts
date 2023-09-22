@@ -1,4 +1,4 @@
-import { Inmueble } from "./Inmueble";
+import { Inmueble } from "../Inmuebles/Inmueble";
 import { Operacion } from "./Operacion";
 
 export class Venta extends Operacion {

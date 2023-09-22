@@ -1,6 +1,6 @@
-import { Cliente } from "./Cliente";
-import { Empleado } from "./Empleado";
-import { Operacion } from "./Operacion";
+import { Cliente } from "../../../Cliente";
+import { Empleado } from "../../../Rankings/Empleado";
+import { Operacion } from "../../Operacion";
 
 export abstract class EstadoOperacion {
     

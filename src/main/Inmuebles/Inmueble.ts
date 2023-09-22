@@ -1,4 +1,4 @@
-import { Operacion } from "./Operacion";
+import { Operacion } from "../Operaciones/Operacion";
 import { Zona } from "./Zona";
 
 export abstract class Inmueble{
@@ -24,6 +24,10 @@ export abstract class Inmueble{
 
     public getOperacion() : Operacion{
         return this.operacion
+    }
+
+    public getZona() : Zona{
+        return this.zona
     }
 
 

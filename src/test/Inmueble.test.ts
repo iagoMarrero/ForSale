@@ -1,7 +1,7 @@
-import { Casa } from "../main/Casa";
-import { Departamento } from "../main/Departamento";
-import { Inmueble } from "../main/Inmueble";
-import { PH } from "../main/PH";
+import { Casa } from "../main/Inmuebles/Casa";
+import { Departamento } from "../main/Inmuebles/Departamento";
+import { Inmueble } from "../main/Inmuebles/Inmueble";
+import { PH } from "../main/Inmuebles/PH";
 
 test("inmueble", () => {
 
